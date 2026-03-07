@@ -32,3 +32,31 @@ Data is provided in the comma separated variable (CSV) file ***netflix_data.csv*
 
 After some EDA, a 1-way ANOVA was run between the top 3 genres.
 
+## NYC Public High Schools
+
+### Business problem
+
+TODO
+
+### Data
+
+TODO
+
+### Analysis
+
+TODO
+
+## Nobel Winners
+
+### Business problem
+
+TODO
+
+### Data
+
+TODO
+
+### Analysis
+
+TODO
+
