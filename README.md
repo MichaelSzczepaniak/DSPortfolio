@@ -4,7 +4,7 @@ Collection of Data Science projects by Michael Szczepaniak
 
 ## Tasty_Bites
 
-### Business problem
+### Business problem of motivation
 
 Website provides healthy, well-balanced recipes and offer meal plan subscriptions that deliver ingredients so that customers can make them at home. The site is free to use to search recipes. Featured recipes are posted on the home page. If a popular recipe is posted, site traffic increase as much as 40%. Incease in site traffic, increases subscription rates.
 
@@ -20,7 +20,7 @@ After some EDA, a baseline logistic regression model was built and two random fo
 
 ## Netflix_Movies
 
-### Business problem
+### Business problem of motivation
 
 What were the top 3 movie genres since 1990? Is there are significant difference in duration between the top 3 movie genres since 1990?
 
@@ -34,7 +34,7 @@ After some EDA, a 1-way ANOVA was run between the top 3 genres.
 
 ## NYC Public High Schools
 
-### Business problem
+### Business problem of motivation
 
 TODO
 
@@ -48,7 +48,7 @@ TODO
 
 ## Nobel Winners
 
-### Business problem
+### Business problem of motivation
 
 TODO
 
@@ -60,3 +60,16 @@ TODO
 
 TODO
 
+## LA Crime
+
+### Business problem of motivation
+
+TODO
+
+### Data
+
+TODO
+
+### Analysis
+
+TODO
