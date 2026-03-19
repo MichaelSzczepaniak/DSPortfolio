@@ -1,13 +1,13 @@
-index,year,category,laureate_type,full_name,sex,birth_date,death_date,full_bdate,Note
-901,2018,Peace,Individual,Nadia Murad,Female,1993-00-00,,1993-03-03,
-903,2018,Economics,Individual,Paul M. Romer,Male,1955-00-00,,1955-11-06,
-920,2020,Medicine,Individual,Michael Houghton,Male,1949-00-00,,1949-07-01,imputed with mid-year date
-931,2021,Medicine,Individual,Ardem Patapoutian,Male,1967-00-00,,1967-10-01,
-937,2021,Literature,Individual,Abdulrazak Gurnah,Male,1948-00-00,,1948-12-20,
-939,2021,Peace,Individual,Dmitry Muratov,Male,1961-00-00,,1961-10-29,
-940,2021,Economics,Individual,David Card,Male,1956-00-00,,1955-11-30,
-949,2022,Chemistry,Individual,Morten Meldal,Male,1954-00-00,,1954-01-16,
-960,2023,Chemistry,Individual,Moungi Bawendi,Male,1961-00-00,,1961-03-15,
-961,2023,Chemistry,Individual,Louis Brus,Male,1943-00-00,2026-01-11,1943-08-10,died after dataset currated
-962,2023,Chemistry,Individual,Aleksey Yekimov,Male,1945-00-00,,1945-02-28,
-965,2023,Economics,Individual,Claudia Goldin,Female,1946-00-00,,1946-05-14,
+index,year,category,laureate_type,full_name,sex,birth_date,death_date
+901,2018,Peace,Individual,Nadia Murad,Female,1993-00-00,
+903,2018,Economics,Individual,Paul M. Romer,Male,1955-00-00,
+920,2020,Medicine,Individual,Michael Houghton,Male,1949-00-00,
+931,2021,Medicine,Individual,Ardem Patapoutian,Male,1967-00-00,
+937,2021,Literature,Individual,Abdulrazak Gurnah,Male,1948-00-00,
+939,2021,Peace,Individual,Dmitry Muratov,Male,1961-00-00,
+940,2021,Economics,Individual,David Card,Male,1956-00-00,
+949,2022,Chemistry,Individual,Morten Meldal,Male,1954-00-00,
+960,2023,Chemistry,Individual,Moungi Bawendi,Male,1961-00-00,
+961,2023,Chemistry,Individual,Louis Brus,Male,1943-00-00,2026-01-11
+962,2023,Chemistry,Individual,Aleksey Yekimov,Male,1945-00-00,
+965,2023,Economics,Individual,Claudia Goldin,Female,1946-00-00,
