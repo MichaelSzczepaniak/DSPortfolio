@@ -88,3 +88,35 @@ TODO
 ### Analysis
 
 TODO
+
+## Prepare_Data_for_Modeling
+
+### Business scenario and challenge
+
+A common problem when creating models to generate business value from data is that the datasets can be so large that it can take days for the model to generate predictions. Ensuring that the dataset is stored as efficiently as possible is crucial for allowing these models to run on a more reasonable timescale without having to reduce the size of the dataset.
+
+In this scenario, we are asked by a training provider called *Training Data Ltd.* to clean up one of their largest customer datasets. This dataset will eventually be used to predict whether their students are looking for a new job or not, information that they will then use to direct them to prospective recruiters.
+
+
+### Data
+
+Data is provided in the comma separated variable (CSV) file ***customer_train.csv*** which has 19158 rows and 14 columns. The 14 columns are as follows: *student_id, city, city_development_index, gender', relevant_experience, enrolled_university, education_level, major_discipline, experience, company_size, company_type, last_new_job, training_hours, job_change*
+
+### Analysis
+
+TODO
+
+## <project name>
+
+### Business scenario and challenge
+
+TODO
+
+
+### Data
+
+TODO
+
+### Analysis
+
+TODO
