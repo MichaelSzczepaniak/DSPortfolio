@@ -4,7 +4,7 @@ Collection of Data Science projects by Michael Szczepaniak
 
 ## Tasty_Bites
 
-This was the DS601 project completed as part of my (Data Scientist certification through DataCamp completed in March 2026.)[https://www.datacamp.com/certificate/DS0029339021283]
+This was the DS601 project completed as part of my [Data Scientist certification through DataCamp completed in March 2026.](https://www.datacamp.com/certificate/DS0029339021283)
 
 ### Business scenario and challenge
 
