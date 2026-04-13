@@ -32,9 +32,9 @@ Part 2. - Predicting movie rental durations (TODO)
 
 ### Data
 
-Part 1. - Data is provided in the comma separated variable (CSV) file ***netflix_data.csv*** which has 947 rows and 8 columns. The 8 columns are as follows: *show_id, type, title, director, cast, country, date_added, release_year, duration, description, genre* respectively.
+Part 1. - Data is provided in the comma separated variable (CSV) file ***netflix_data.csv*** which has 947 rows and 8 columns. Detailed descriptions of each column are provided in the ***NetflixGenreEda.ipynb***
 
-Part 2. - TODO
+Part 2. - Data is provided in the comma separated variable (CSV) file ***rental_info.csv*** which has 15861 rows and 15 columns. Detailed descriptions of each column are provided in the ***PredictingMovieRentals.ipynb***
 
 ### Analysis
 
