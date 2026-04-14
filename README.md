@@ -40,7 +40,7 @@ Part 2. - Data is provided in the comma separated variable (CSV) file ***rental_
 
 Part 1. - After some EDA, a 1-way ANOVA was run between the top 3 genres.
 
-Part 2. - TODO
+Part 2. - Investigate impact features on length of rental, build build and compare models that predict rental length (regressors), build and compare models that predict whether a rental will be late (binary classification)
 
 ## NYC Public High Schools
 
@@ -59,7 +59,7 @@ Data is provided in the comma separated variable (CSV) file ***schools.csv*** wh
 
 ### Analysis
 
-TODO
+Visualization comparing SAT distributions of each borough, KW tests of pairs to determine significant, visualization of top math schools
 
 ## Nobel Winners
 
@@ -100,7 +100,37 @@ In this scenario, we are asked by a training provider called *Training Data Ltd.
 
 ### Data
 
-Data is provided in the comma separated variable (CSV) file ***customer_train.csv*** which has 19158 rows and 14 columns. The 14 columns are as follows: *student_id, city, city_development_index, gender', relevant_experience, enrolled_university, education_level, major_discipline, experience, company_size, company_type, last_new_job, training_hours, job_change*
+Data is provided in the comma separated variable (CSV) file ***customer_train.csv*** which has 19158 rows and 14 columns. The 14 columns are as follows: *student_id, city, city_development_index, gender, relevant_experience, enrolled_university, education_level, major_discipline, experience, company_size, company_type, last_new_job, training_hours, job_change*
+
+### Analysis
+
+TODO
+
+## Airbnb_Market_Trends
+
+### Business scenario and challenge
+
+TODO
+
+
+### Data
+
+TODO
+
+### Analysis
+
+TODO
+
+## Car_Insurance_Outcomes
+
+### Business scenario and challenge
+
+Identify the single feature that results in the best performing model which predicts whether a driver will make a claim.
+
+
+### Data
+
+Data is provided in the comma separated variable (CSV) file ***car_insurance.csv*** which has 10000 rows and 18 columns. The 14 columns are as follows: *id, age, gender, driving_experience, education, income, credit_score, vehicle_ownership, vehicle_year, married, children, postal_code, annual_mileage, vehicle_type, speeding_violations, duis, past_accidents, outcome*
 
 ### Analysis
 
