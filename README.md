@@ -28,7 +28,7 @@ This project had two parts. The first part explored top movie genres since 1990.
 
 Part 1. - What were the top 3 movie genres since 1990? Is there are significant difference in duration between the top 3 movie genres since 1990?
 
-Part 2. - Predicting movie rental durations (TODO)
+Part 2. - What is the impact of each feature on rental duration? Build models to predict movie rental durations from existing features.
 
 ### Data
 
@@ -65,11 +65,15 @@ Visualization comparing SAT distributions of each borough, KW tests of pairs to 
 
 ### Business problem or motivation
 
-TODO
++ How does sex and country of birth influence the distribution of Nobel prizes?
++ How has the proportion of men and women receiving Nobel prizes changed over time?
++ How have the categories which women receive Nobel prizes evolved over time?
 
 ### Data
 
-TODO
+The original data can be found at:
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JA5QBC
+A subset of this data was used for this analysis
 
 ### Analysis
 
@@ -135,6 +139,23 @@ Data is provided in the comma separated variable (CSV) file ***car_insurance.csv
 ### Analysis
 
 TODO
+
+## Hypothesis_Soccer
+
+### Business scenario and challenge
+
+Is there a significant difference in the number of goals scored in FIFA World Cup women's versus men's matches?
+
+
+### Data
+
+Men data: https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017
+
+Women data: https://www.kaggle.com/datasets/piterfm/football-fifa-womens-world-cup-1991-2023
+
+### Analysis
+
+Data wrangling: 
 
 ## <project name>
 
