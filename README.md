@@ -24,7 +24,7 @@ After some EDA, a baseline logistic regression model was built and two random fo
 
 This project had two parts. The first part explored top movie genres since 1990.
 
-### Business scenario and challenge
+### Business questions and tasks
 
 Part 1. - What were the top 3 movie genres since 1990? Is there are significant difference in duration between the top 3 movie genres since 1990?
 
@@ -44,11 +44,9 @@ Part 2. - Investigate impact features on length of rental, build build and compa
 
 ## NYC Public High Schools
 
-### Business scenario and challenge
+### Research questions
 
-This project focused on answering 3 questions:
-
-1. How do SAT scores distribute across the boroughs?
+1. How do SAT scores distribute across the 5 boroughs?
 2. Are any of the differences in median scores significant?
 3. Which schools are the best in math?
 
@@ -63,11 +61,11 @@ Visualization comparing SAT distributions of each borough, KW tests of pairs to 
 
 ## Nobel Winners
 
-### Business problem or motivation
+### Research questions
 
 + How does sex and country of birth influence the distribution of Nobel prizes?
 + How has the proportion of men and women receiving Nobel prizes changed over time?
-+ How have the categories which women receive Nobel prizes evolved over time?
++ What do the age distributions of men and women look over the Nobel prize categories?
 
 ### Data
 
@@ -77,21 +75,25 @@ A subset of this data was used for this analysis
 
 ### Analysis
 
-TODO
+There were not models built in this project, but alot of data wrangling was done to create many interesting graphics.
 
 ## LA Crime
 
-### Business problem or motivation
+### Research questions
 
-TODO
+1. Which hour has the highest frequency of crimes?
+2. What types of crimes occur during the most frequent hour?
+3. Which areas have the highest and lowest frequency of night crimes?
+4. How do crimes committed against victims distribute accross different age groups?
 
 ### Data
 
-TODO
+The data for this project was extracted and modified from the Los Angeles - Open Data Portal
+https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-2024/2nrs-mtv8/about_data
 
 ### Analysis
 
-TODO
+There were not models built in this project, but alot of data wrangling was done to create several interesting graphics.
 
 ## Prepare_Data_for_Modeling
 
@@ -155,7 +157,34 @@ Women data: https://www.kaggle.com/datasets/piterfm/football-fifa-womens-world-c
 
 ### Analysis
 
-Data wrangling: 
+Data wrangling focused on filtering for only FIFA world cup matches followed by testing the following null and alternative hypotheses:
+
+$$H_0$$: The mean number of goals scored in women's international soccer matches is the same as men's.
+
+$$H_A$$: The mean number of goals scored in women's international soccer matches is greater than men's.
+
+## Predictive_Ag_Modeling
+
+### Business scenario and challenge
+
+In this project, a multi-class classification models to predict the type of "crop" and identify the single most importance feature for predictive performance is built.
+
+
+### Data
+
+The dataset has 2200 rows and the follow 5 columns:
+
+"N": Nitrogen content ratio in the soil
+"P": Phosphorous content ratio in the soil
+"K": Potassium content ratio in the soil
+"pH" value of the soil
+"crop": categorical values that contain various crops (target variable).
+
+Source: TODO
+
+### Analysis
+
+After doing some EDA done on each independent variable, single predictor logistic regression models were built with each independent variable to identify the best single predictor. The logistic regression results were validated by repeating this process, but building LDA (linear discriminant analysis) models.
 
 ## <project name>
 
