@@ -108,24 +108,39 @@ In this scenario, we are asked by a training provider called *Training Data Ltd.
 
 Data is provided in the comma separated variable (CSV) file ***customer_train.csv*** which has 19158 rows and 14 columns. The 14 columns are as follows: *student_id, city, city_development_index, gender, relevant_experience, enrolled_university, education_level, major_discipline, experience, company_size, company_type, last_new_job, training_hours, job_change*
 
-### Analysis
+### Objectives
 
-TODO
+Each column was wrangled into the following manner:
+
+1. Columns containing categories with only two factors must be stored as Booleans (`bool`).
+2. Columns containing integers only must be stored as 32-bit integers (`int32`).
+3. Columns containing floats must be stored as 16-bit floats (`float16`).
+4. Columns containing nominal categorical data must be stored as the `category` data type.
+5. Columns containing ordinal categorical data must be stored as *ordered categories*, and not mapped to numerical values, with an order that reflects the natural order of the column.
+6. The DataFrame should be filtered to only contain students with *10 or more years* of experience at companies with *at least 1000 employees*, as their recruiter base is suited to more experienced professionals at enterprise companies.
 
 ## Airbnb_Market_Trends
 
 ### Business scenario and challenge
 
-TODO
+There are many Airbnb listings in New York City to meet the high demand for temporary lodging for travelers, which can be anywhere between a few nights to many months. In this project, we will take a closer look at the New York Airbnb market by combining data from multiple file types like .csv, .tsv, and .xlsx.
 
+### Research questions
+
+1. What are the dates of the earliest and most recent reviews?
+2. How many of the listings are private rooms?
+3. What is the average listing price?
 
 ### Data
 
-TODO
+Three files are used in this analysis:
 
-### Analysis
++ **airbnb_price.csv** - CSV (comman separated variable) file containing data on Airbnb listing prices and locations with fields: `listing_id`, `price`, `nbhood_full`
++ **airbnb_room_type.xlsx** - Excel file containing data on Airbnb listing descriptions and room types with fields: `listing_id`, `description`, `room_type`
++ **airbnb_last_review.tsv** - TSV (tab separated variable) file containing data on Airbnb host names and review dates with fields: `listing_id`, `host_name`, `last_review`
 
-TODO
+Detailed description can be found in the notebook.
+
 
 ## Car_Insurance_Outcomes
 
@@ -185,6 +200,29 @@ Source: TODO
 ### Analysis
 
 After doing some EDA done on each independent variable, single predictor logistic regression models were built with each independent variable to identify the best single predictor. The logistic regression results were validated by repeating this process, but building LDA (linear discriminant analysis) models.
+
+## Clustering_Penguins
+
+### Business scenario and challenge
+
+You have been asked to support a team of researchers who have been collecting data about penguins in Antartica. The data is available in csv-Format as ***penguins.csv***
+
+In this scenario, the species of penguin is not provided. We are to assume that there are at least three species that are native to the region: Adelie, Chinstrap, and Gentoo. Our task is to help them identify groups in the dataset.
+
+
+### Data
+
+Data has been adapted from the data collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network: https://github.com/allisonhorst/palmerpenguins
+
+Columns in this adapted dataset: `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, `body_mass_g`, `sex`
+
+### Analysis
+
++ *Should we filter by sex?*
++ Impact of feature scaling
++ TSNE plots to visualize the clusters
++ *Which features best separate clusters?*
+
 
 ## <project name>
 
